@@ -59,7 +59,7 @@ h4{ font: 400 1em "Open Sans" }
     text-decoration: underline;
     padding: 15px 0;
 }
-.art-text{ padding: 50px 60px }
+.art-text{ padding: 30px 60px }
 .art-text i{
     font-size: 2em;
     color: #e3e9e9;
@@ -126,6 +126,7 @@ footer{background: #0d1119;}
         width: 100%;
         margin: auto;
     }
+    .art-text{ padding: 60px }
     form{ text-align: end }
     .form input{ width: min-content }
     .art-item{text-align: initial;}
