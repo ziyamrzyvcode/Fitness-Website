@@ -1,0 +1,144 @@
+:root {
+    --yasil: #a1c927;
+    --qirmizi: #fd634d;
+    --ag: #fff;
+}
+header{ background: url('../Img/headerbg.jpg') 60% center/cover }
+nav{
+    padding: 40px;
+    text-align: center;
+    height: 100%;
+}
+#menu li{ padding: 10px 0 }
+#menu li a{ 
+    font: .8em "Avenir Next Rounded";
+    text-transform: uppercase;
+    color: var(--ag);
+}
+#title{ padding-top: 200px }
+#title h1{
+    font: 2em "Myriad Pro";
+    line-height: 70px;
+    text-transform: uppercase;
+}
+#title h5{
+    font: 1em "Myriad Pro";
+    text-transform: uppercase;
+}
+.footer-txt p{
+    font: 400 .9em "Open Sans";
+    color: #8297a7;
+    padding: 20px 50px 20px 0;
+}
+.footer-icon i{
+    font-size: 2em;
+    padding: 20px 10px;
+}
+.form input{
+    padding: 20px;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    margin: 5px 0;
+}
+h6{
+    font: 400 .9em "Montserrat";
+    text-transform: uppercase;
+}
+h2{
+    font: 300 2em "Open Sans";
+    text-transform: uppercase;
+}
+h4{ font: 400 1em "Open Sans" }
+.art-text p{
+    font: 400 .9em "Open Sans";
+    color: #656e74;
+}
+.bgag a{
+    display: block;
+    text-decoration: underline;
+    padding: 15px 0;
+}
+.art-text{ padding: 80px 60px }
+.art-text i{
+    font-size: 2em;
+    color: #e3e9e9;
+}
+
+#fitnessfirst{background: url("../Img/fitnessfirst.jpg") center/cover ;}
+#yourbody{background: url("../Img/yourbody.jpg") center/cover ;}
+#lifestyle{background: url("../Img/lifestyle.jpg") center/cover ;}
+#summeroffun{background: url("../Img/summeroffun.jpg") center/cover;}
+#mango{background: url("../Img/mango.jpg") center/cover;}
+#grape{background: url("../Img/grape.jpg") center/cover;}
+#footerbg{background: url("../Img/footerbg.jpg") center/cover; width: 100%;}
+footer{background: #0d1119;}
+.art-item{text-align: center;}
+.art-item i{ font-size: 3em; }
+.art-item h3{ font: 400 1.5em "Open Sans", sans-serif; }
+.art-item p, .art-item a{ font: .9em "Proxima Nova"; }
+
+.pad80{ padding-top: 80px}
+.pad10{ padding-top: 10px}
+.pad30{ padding: 30px}
+.mar25{ margin: 25px 0;}
+.art-item{ padding: 40px 15px;}
+
+.txtag{ color: var(--ag) !important}
+.txtyasil{ color: var(--yasil) }
+.txtqirmizi{ color: var(--qirmizi) }
+.txtcenter{ text-align: center }
+
+
+.bgag{ background-color: var(--ag) }
+.bgyasil{ background-color: var(--yasil) }
+.bgqirmizi{ background-color: var(--qirmizi) }
+
+.vh50{height: 50vh;}
+.vh100{height: 100vh;}
+
+.fright-mobile{float: right }
+
+@media only screen and (min-width: 768px) {
+    nav{
+        position: relative;
+    }
+    #logo{
+        position: absolute;
+        left: 50px;
+    }
+    #menu{
+        position: absolute;
+        right: 0;
+    }
+    #menu li{ 
+        display: inline-block;
+        padding: 0 30px;
+    }
+    #title{
+        position: absolute;
+        bottom: 10vh;
+        left: 115px;
+        text-align: end;
+    }
+    .container{
+        max-width: 1180px;
+        width: 100%;
+        margin: auto;
+    }
+    form{ text-align: end }
+    .form input{ width: min-content }
+    .art-item{text-align: initial;}
+    .col25{ width: 25% }
+    .col30{ width: 30% }
+    .col40{ width: 40% }
+    .col33{ width: 33.33% }
+    .col66{ width: 66.66% }
+    .fleft{ float: left }
+    .fright{ float: right }
+    .row::after{
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
