@@ -71,7 +71,7 @@ h4{ font: 400 1em "Open Sans" }
 #summeroffun{background: url("../Img/summeroffun.jpg") center/cover;}
 #mango{background: url("../Img/mango.jpg") center/cover;}
 #grape{background: url("../Img/grape.jpg") center/cover;}
-#footerbg{background: url("../Img/footerbg.jpg") center/cover; width: 100%;}
+#footerbg{background: url("../Img/footerbg.jpg") 60%/cover;}
 footer{background: #0d1119;}
 .art-item{text-align: center;}
 .art-item i{ font-size: 3em; }
