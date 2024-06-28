@@ -94,7 +94,7 @@ footer{background: #0d1119;}
 .bgyasil{ background-color: var(--yasil) }
 .bgqirmizi{ background-color: var(--qirmizi) }
 
-.vh50{height: 50vh;}
+.vh50{min-height: 50vh;}
 .vh100{height: 100vh;}
 
 .fright-mobile{float: right }
@@ -142,4 +142,6 @@ footer{background: #0d1119;}
         clear: both;
         display: table;
     }
+    .row{display: flex;}
+    .o1{order: -1;}
 }
